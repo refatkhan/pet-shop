@@ -42,38 +42,38 @@
 <body>
   <!-- Header Part  -->
   <section class=" bg-secondery">
-    <nav>
-      <div class="navbar max-w-[1150px] mx-auto">
-        <div class="navbar-start">
-          <div class="dropdown">
-            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
-                stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
-              </svg>
-            </div>
-            <ul tabindex="0" class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-              <li><a class="font-sora">Find a pet</a></li>
-              <li><a class="font-sora">Breeds</a></li>
-              <li><a class="font-sora">Contact Us</a></li>
-            </ul>
-          </div>
+    <nav class="max-w-[1150px]  mx-auto">
+      <div class="flex justify-between items-center">
+        <div>
           <a class="btn btn-ghost text-xl"> <img src="./c1-assets/logo-header.png" alt="header_logo">
             <p class="hidden lg:inline">Browse<span class="text-accentt">4</span>Pets</p>
           </a>
         </div>
-        <div class="navbar-center hidden lg:flex">
-          <ul class="menu menu-horizontal px-1">
+        <div>
+          <ul class="flex justify-between space-x-4 lg:inline hidden ">
             <li><a class="font-sora">Find a pet</a></li>
             <li><a class="font-sora">Breeds</a></li>
             <li><a class="font-sora">Contact Us</a></li>
           </ul>
         </div>
-        <div class="navbar-end space-x-4 hidden lg:inline">
-          <i class="fa-regular fa-bell"></i>
-          <i class="fa-solid fa-magnifying-glass"></i>
+        <div class=" space-x-4 hidden lg:inline">
+          <a href=""><i class="fa-regular fa-bell"></i></a>
+          <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
           <a class="btn font-sora px-7 bg-opacity-0 border-accentt">Login</a>
           <a class="btn bg-accentt font-sora px-7">Register</a>
+        </div>
+        <div class="dropdown lg:hidden ">
+          <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+              stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+            </svg>
+          </div>
+          <ul tabindex="0" class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+            <li><a class="font-sora">Find a pet</a></li>
+            <li><a class="font-sora">Breeds</a></li>
+            <li><a class="font-sora">Contact Us</a></li>
+          </ul>
         </div>
       </div>
     </nav>
@@ -81,24 +81,29 @@
 
   </section>
   <!-- banner-section -->
-   <div class=" max-w-[1150px]  mx-auto mt-20">
-    <section class=" bg-[url(./c1-assets/cat-big.png)] bg-no-repeat h-dvh ">
-      <div class="max-w-2xl space-y-6">      
-       <h1 class="text-5xl font-adam">Pamper Your Pet, <br> Because They Deserve <br> the Bes</h1>
-       <p class="font-sora opacity-75 text-2xl ">Discover a world of treats, toys, and essentials handpicked for your furry friends. Shop now and make tails wag
-         with joy!</p>
-         <button class="bg-accentt px-8 py-3 rounded-md font-sora">Find a pet</button>
+  <div class=" max-w-[1150px]  mx-auto mt-20">
+    <section class=" bg-[url(./c1-assets/cat-big.png)] bg-no-repeat h-dvh max-w-full ">
+      <div class="max-w-2xl space-y-6">
+        <h1 class="text-5xl font-adam">Pamper Your Pet, <br> Because They Deserve <br> the Bes</h1>
+        <p class="font-sora opacity-75 text-2xl ">Discover a world of treats, toys, and essentials handpicked for your
+          furry friends. Shop now and make tails wag
+          with joy!</p>
+        <button class="bg-accentt px-8 py-3 rounded-md font-sora">Find a pet</button>
       </div>
-    
-     </section>
-   </div>
- 
+
+    </section>
+  </div>
+
 
 
 
   <!-- Main Part -->
-  <section class="main bg-seconday ">
-
+  <section class="main">
+    <!-- categories -->
+    <div>
+      <h3>Browse By Categories</h3>
+      <p>this is test</p>
+    </div>
   </section>
   <!-- Footer Part -->
 </body>
