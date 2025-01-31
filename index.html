@@ -32,6 +32,7 @@
             accentt: "#FFDC26",
             secondery: "#FFF9F4",
             fontcolor: "#111111",
+            allbg:"#F9DF8A",
           },
         }
       }
@@ -41,7 +42,7 @@
 
 <body>
   <!-- Header Part  -->
-  <section class=" bg-secondery">
+  <section class=" bg-secondery overflow-hidden">
     <nav class="max-w-[1150px]  mx-auto">
       <div class="flex justify-between items-center">
         <div>
@@ -50,7 +51,7 @@
           </a>
         </div>
         <div>
-          <ul class="flex justify-between space-x-4 lg:inline hidden ">
+          <ul class=" space-x-4 hidden lg:flex">
             <li><a class="font-sora">Find a pet</a></li>
             <li><a class="font-sora">Breeds</a></li>
             <li><a class="font-sora">Contact Us</a></li>
@@ -69,7 +70,7 @@
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
             </svg>
           </div>
-          <ul tabindex="0" class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+          <ul tabindex="0" class=" menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
             <li><a class="font-sora">Find a pet</a></li>
             <li><a class="font-sora">Breeds</a></li>
             <li><a class="font-sora">Contact Us</a></li>
@@ -81,30 +82,110 @@
 
   </section>
   <!-- banner-section -->
-  <div class=" max-w-[1150px]  mx-auto mt-20">
-    <section class=" bg-[url(./c1-assets/cat-big.png)] bg-no-repeat h-dvh max-w-full ">
-      <div class="max-w-2xl space-y-6">
+  <div class=" max-w-[1150px]  mx-auto mt-20 ">
+    <div class=" lg:bg-[url(./c1-assets/cat-big.png)] bg-no-repeat h-dvh max-w-full"> 
+      <div class="lg:max-w-2xl space-y-6  left-0">
         <h1 class="text-5xl font-adam">Pamper Your Pet, <br> Because They Deserve <br> the Bes</h1>
         <p class="font-sora opacity-75 text-2xl ">Discover a world of treats, toys, and essentials handpicked for your
           furry friends. Shop now and make tails wag
           with joy!</p>
         <button class="bg-accentt px-8 py-3 rounded-md font-sora">Find a pet</button>
       </div>
-
-    </section>
+    </div>
+    <div class="lg:hidden">
+      <img src="./c1-assets/cat-big.png" alt="Cat" class="w-full h-auto">
+    </div>
   </div>
 
 
 
 
   <!-- Main Part -->
-  <section class="main">
+  <section class="max-w-[1150px]  mx-auto mt-20 ">
     <!-- categories -->
-    <div>
-      <h3>Browse By Categories</h3>
-      <p>this is test</p>
+    <div class="">
+      <h3 class="font-adam text-4xl">Browse By Categories</h3>
+      <div class=" flex justify-between flex-wrap mt-10">
+        <div class="card bg-allbg inline-block ">
+          <figure class="px-10 pt-10">
+            <img
+              src="./c1-assets/dog-cartoon.png"
+              alt="dog"
+              class="rounded-full bg-white p-7" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h4 class="card-title">Dog</h4>
+            <p>3 Items</p>
+          </div>
+        </div>
+        <div class="card bg-allbg inline-block ">
+          <figure class="px-10 pt-10">
+            <img
+              src="./c1-assets/fish-cartoon.png"
+              alt="fish"
+              class="rounded-full bg-white p-7" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h4 class="card-title">Fish</h4>
+            <p>3 Items</p>
+          </div>
+        </div>
+        <div class="card bg-allbg inline-block ">
+          <figure class="px-10 pt-10">
+            <img
+              src="./c1-assets/cat-cartoon.png"
+              alt="cat"
+              class="rounded-full bg-white p-7" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h4 class="card-title">Cat</h4> 
+            <p>3 Items</p>
+          </div>
+        </div>
+        <div class="card bg-allbg inline-block ">
+          <figure class="px-10 pt-10">
+            <img
+              src="./c1-assets/bird-cartoon.png"
+              alt="bird"
+              class="rounded-full bg-white p-7" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h4 class="card-title">Bird</h4>
+            <p>3 Items</p>
+          </div>
+        </div>
+        <div class="card bg-allbg inline-block ">
+          <figure class="px-10 pt-10">
+            <img
+              src="./c1-assets/mouse-cartoon.png"
+              alt="small pet"
+              class="rounded-full bg-white p-7" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h4 class="card-title">Small pet</h4>
+            <p>3 Items</p>
+          </div>
+        </div>
+        <div class="card bg-allbg inline-block ">
+          <figure class="px-10 pt-10">
+            <img
+              src="./c1-assets/rabbit-cartoon.png"
+              alt="Rabit"
+              class="rounded-full bg-white p-7" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h4 class="card-title">Rabit</h4>
+            <p>3 Items</p>
+          </div>
+        </div>
+  
+      </div>
     </div>
   </section>
+  <!-- trending pet  -->
+   <section>
+    
+   </section>
   <!-- Footer Part -->
 </body>
 
