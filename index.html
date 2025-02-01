@@ -77,25 +77,31 @@
           </ul>
         </div>
       </div>
+      <hr class="border-black lg:hidden">
     </nav>
-
-
   </section>
   <!-- banner-section -->
-  <!-- <div class=" max-w-[1150px]  mx-auto mt-20 ">
-    <div class=" lg:bg-[url(./c1-assets/cat-big.png)] bg-no-repeat h-dvh max-w-full">
-      <div class="lg:max-w-2xl space-y-6  left-0">
-        <h1 class="text-5xl font-adam">Pamper Your Pet, <br> Because They Deserve <br> the Bes</h1>
-        <p class="font-sora opacity-75 text-2xl ">Discover a world of treats, toys, and essentials handpicked for your
-          furry friends. Shop now and make tails wag
-          with joy!</p>
-        <button class="bg-accentt px-8 py-3 rounded-md font-sora">Find a pet</button>
-      </div>
+  <section class="max-w-[1150px] px-3 py-3 mx-auto mt-5 md:mt-12">
+    <!-- banner top -->
+    <svg class="animate-bounce w-6 h-6 ...">
+      <!-- ... -->
+    </svg>
+    <div
+      class="space-y-4 md:space-y-6  bg-[url(./c1-assets/cat-big.png)] bg-contain bg-[center_150px] bg-no-repeat md:bg-right h-[500px] md:h-[700px] ">
+      <h1 class="text-[#111111] text-3xl font-adam lg:text-4xl">Pamper Your
+        Pet,<br> Because They Deserve<br> the Bes</h1>
+      <p class="text-lg lg:text-xl font-sora">Discover a world of treats, toys, and essentials handpicked for<br> your furry friends. Shop now and make tails wag with
+        joy!</p>
+      <button class="py-3 px-7 bg-accentt rounded-lg font-sora text-[#111111]">
+        Find a Pet
+      </button>
+
     </div>
-    <div class="lg:hidden">
-      <img src="./c1-assets/cat-big.png" alt="Cat" class="w-full h-auto">
+    <!-- banner bottom -->
+    <div>
+
     </div>
-  </div> -->
+  </section>
 
 
   <!-- Main Part -->
@@ -103,7 +109,7 @@
     <!-- categories -->
     <div class="">
       <h3 class="font-adam text-4xl">Browse By Categories</h3>
-      <div class=" flex justify-center gap-3 flex-wrap mt-10">
+      <div class=" grid grid-cols-2 md:grid-cols-3 lg:grid-flow-col justify-center gap-3 mt-10">
         <div class="card bg-allbg inline-block ">
           <figure class="px-10 pt-10">
             <img src="./c1-assets/dog-cartoon.png" alt="dog" class="rounded-full bg-white p-7" />
@@ -165,7 +171,7 @@
   <!-- trending pet  -->
   <section class="bg-secondery my-28">
     <div class="max-w-[1150px]  mx-auto py-36">
-      <h3 class="font-adam text-4xl mb-10">Trending Pet Products</h3>
+      <h3 class="font-adam text-4xl mb-10 pl-4">Trending Pet Products</h3>
       <!-- parent div -->
       <div class=" flex flex-col lg:flex-row gap-6">
         <div class="w-full lg:w-2/5 bg-[#F9DF8A] p-6 relative rounded-xl">
@@ -179,7 +185,7 @@
         <div class="w-full lg:w-3/5 grid grid-cols-2 lg:grid-cols-3 gap-6 ">
           <div class="flex bg-white p-4 gap-4">
             <div class="p-5 bg-secondery  rounded-xl ">
-              <img src="./c1-assets/fish-cartoon.png" alt="">
+              <img src="./c1-assets/dog-cartoon.png" alt="">
             </div>
             <div>
               <p class="font-sora"><i class="fa-solid fa-star" style="color: #FFD43B;"></i>4.5</p>
@@ -199,7 +205,37 @@
           </div>
           <div class="flex bg-white p-4 gap-4">
             <div class="p-5 bg-secondery  rounded-xl ">
-              <img src="./c1-assets/fish-cartoon.png" alt="">
+              <img src="./c1-assets/bird-cartoon.pngg" alt="">
+            </div>
+            <div>
+              <p class="font-sora"><i class="fa-solid fa-star" style="color: #FFD43B;"></i>4.5</p>
+              <p class="font-sora font-medium">Pet Bed</p>
+              <p class="font-sora font-me">$39.99</p>
+            </div>
+          </div>
+          <div class="flex bg-white p-4 gap-4">
+            <div class="p-5 bg-secondery  rounded-xl ">
+              <img src="./c1-assets/rabbit-cartoon.png" alt="">
+            </div>
+            <div>
+              <p class="font-sora"><i class="fa-solid fa-star" style="color: #FFD43B;"></i>4.5</p>
+              <p class="font-sora font-medium">Pet Bed</p>
+              <p class="font-sora font-me">$39.99</p>
+            </div>
+          </div>
+          <div class="flex bg-white p-4 gap-4">
+            <div class="p-5 bg-secondery  rounded-xl ">
+              <img src="./c1-assets/bird-cartoon.png" alt="">
+            </div>
+            <div>
+              <p class="font-sora"><i class="fa-solid fa-star" style="color: #FFD43B;"></i>4.5</p>
+              <p class="font-sora font-medium">Pet Bed</p>
+              <p class="font-sora font-me">$39.99</p>
+            </div>
+          </div>
+          <div class="flex bg-white p-4 gap-4">
+            <div class="p-5 bg-secondery  rounded-xl ">
+              <img src="./c1-assets/pet-couch.png" alt="">
             </div>
             <div>
               <p class="font-sora"><i class="fa-solid fa-star" style="color: #FFD43B;"></i>4.5</p>
@@ -219,37 +255,7 @@
           </div>
           <div class="flex bg-white p-4 gap-4">
             <div class="p-5 bg-secondery  rounded-xl ">
-              <img src="./c1-assets/fish-cartoon.png" alt="">
-            </div>
-            <div>
-              <p class="font-sora"><i class="fa-solid fa-star" style="color: #FFD43B;"></i>4.5</p>
-              <p class="font-sora font-medium">Pet Bed</p>
-              <p class="font-sora font-me">$39.99</p>
-            </div>
-          </div>
-          <div class="flex bg-white p-4 gap-4">
-            <div class="p-5 bg-secondery  rounded-xl ">
-              <img src="./c1-assets/fish-cartoon.png" alt="">
-            </div>
-            <div>
-              <p class="font-sora"><i class="fa-solid fa-star" style="color: #FFD43B;"></i>4.5</p>
-              <p class="font-sora font-medium">Pet Bed</p>
-              <p class="font-sora font-me">$39.99</p>
-            </div>
-          </div>
-          <div class="flex bg-white p-4 gap-4">
-            <div class="p-5 bg-secondery  rounded-xl ">
-              <img src="./c1-assets/fish-cartoon.png" alt="">
-            </div>
-            <div>
-              <p class="font-sora"><i class="fa-solid fa-star" style="color: #FFD43B;"></i>4.5</p>
-              <p class="font-sora font-medium">Pet Bed</p>
-              <p class="font-sora font-me">$39.99</p>
-            </div>
-          </div>
-          <div class="flex bg-white p-4 gap-4">
-            <div class="p-5 bg-secondery  rounded-xl ">
-              <img src="./c1-assets/fish-cartoon.png" alt="">
+              <img src="./c1-assets/pet-couch.png" alt="">
             </div>
             <div>
               <p class="font-sora"><i class="fa-solid fa-star" style="color: #FFD43B;"></i>4.5</p>
@@ -259,7 +265,7 @@
           </div>
           <div class="lg:flex bg-white p-4 gap-4 hidden">
             <div class="p-5 bg-secondery  rounded-xl ">
-              <img src="./c1-assets/fish-cartoon.png" alt="">
+              <img src="./c1-assets/rabbit-cartoon.png" alt="">
             </div>
             <div>
               <p class="font-sora"><i class="fa-solid fa-star" style="color: #FFD43B;"></i>4.5</p>
@@ -274,13 +280,13 @@
 
   <!-- Low Prices -->
   <section>
-    <div class="max-w-[1150px]  mx-auto">
-      <h3 class="font-adam text-4xl mb-10">Trending Pet Products</h3>
+    <div class="max-w-[1150px]  mx-auto ">
+      <h3 class="font-adam text-4xl mb-10 pl-4">Trending Pet Products</h3>
       <div class="grid grid-cols-1 lg:grid-cols-6 gap-6">
         <div class="lg:col-span-4 ">
           <div
             class="rounded-xl flex justify-between items-center bg-gradient-to-r from-[rgba(248,204,251,100%)] to-[rgba(172,210,253,100%)]"">
-            <div class=" ml-10">
+            <div class=" lg:ml-10 ml-5">
             <p class="font-sora text-xl">Under Price</p>
             <h4 class="font-adam text-2xl mt-3 mb-2">Pet Grooming Mitt</h4>
             <p class="font-adam text-white text-xl mb-4">(Easy Hair Removal)</p>
@@ -306,47 +312,89 @@
 
     </div>
   </section>
-  <!-- Footer Part -->
-  <!-- <footer class="footer bg-[rgba(255,220,38,50%)]  p-10">
-  <div class="max-w-[1250px] mx-auto flex flex-col lg:flex-row lg:justify-between gap-8">
-    <nav class="flex-1">
-      <div class="flex items-center gap-4">
-        <a><img src="./c1-assets/logo-footer.png" alt=""></a>
-        <p>Browse Pets</p>
-      </div>
-      <p class="mt-4">Discover a world of treats, toys, and <br>essentials handpicked for your furry friends</p>
-    </nav>
-    <nav class="flex-1">
-      <a class="link link-hover block mb-2">Find a pet</a>
-      <a class="link link-hover block mb-2">Breeds</a>
-      <a class="link link-hover block mb-2">Contact us</a>
-    </nav>
-    <nav class="flex-1">
-      <h6 class="footer-title">Social</h6>
-      <div class="grid grid-flow-col gap-4">
-        <i class="fa-brands fa-facebook"></i>
-        <i class="fa-brands fa-instagram"></i>
-        <i class="fa-brands fa-linkedin"></i>
-        <i class="fa-brands fa-youtube"></i>
-      </div>
-    </nav>
-  </div>
-</footer> -->
+<!-- Client part -->
+   <!-- Client section -->
+   <section class="max-w-[1150px] m-auto mt-10">
+    <h3 class=" font-semibold text-5xl lg:text-center font-adam">Happy <span class="text-[#FFDC26]">Clients says</span></h3>
+    <div class="mt-8 flex flex-col lg:flex-row gap-11 justify-center">
+        <div class="card bg-base-100 w-96 shadow-xl m-auto">
+            <figure class="px-10 pt-10">
+                <img src="./c1-assets/user-1.png" alt="Shoes" class="rounded-xl" />
+            </figure>
+            <div class="card-body items-center text-center mx-9 space-y-5">
 
+                <p class="text-[#6C6C6C]">Slate helps you see how
+                    many more days you need
+                    to work to reach your financial
+                    goal for the month and year.</p>
+                <div class="rating">
+                    <input type="radio" name="rating-1" class="mask mask-star" checked="checked" />
+                    <input type="radio" name="rating-1" class="mask mask-star" checked="checked" />
+                    <input type="radio" name="rating-1" class="mask mask-star" checked="checked" />
+                    <input type="radio" name="rating-1" class="mask mask-star" checked="checked" />
+                    <input type="radio" name="rating-1" class="mask mask-star" />
+                </div>
+                <p class="text-[#23A6F0] font-semibold">Regina Miles</p>
+                <p>Banker</p>
+            </div>
+        </div>
+        <div class="card bg-base-100 w-96 shadow-xl m-auto">
+            <figure class="px-10 pt-10">
+                <img src="./c1-assets/user-2.png" alt="Shoes" class="rounded-xl" />
+            </figure>
+            <div class="card-body items-center text-center mx-9 space-y-5">
 
+                <p class="text-[#6C6C6C]">Slate helps you see how
+                    many more days you need
+                    to work to reach your financial
+                    goal for the month and year.</p>
+                <div class="rating">
+                    <input type="radio" name="rating-1" class="mask mask-star" checked="checked" />
+                    <input type="radio" name="rating-1" class="mask mask-star" checked="checked" />
+                    <input type="radio" name="rating-1" class="mask mask-star" checked="checked" />
+                    <input type="radio" name="rating-1" class="mask mask-star" checked="checked" />
+                    <input type="radio" name="rating-1" class="mask mask-star" />
+                </div>
+                <p class="text-[#23A6F0] font-semibold">Regina Miles</p>
+                <p>Banker</p>
+            </div>
+        </div>
+        <div class="card bg-base-100 w-96 shadow-xl m-auto">
+            <figure class="px-10 pt-10">
+                <img src="./c1-assets/user-3.png" alt="Shoes" class="rounded-xl" />
+            </figure>
+            <div class="card-body items-center text-center mx-9 space-y-5">
 
+                <p class="text-[#6C6C6C]">Slate helps you see how
+                    many more days you need
+                    to work to reach your financial
+                    goal for the month and year.</p>
+                <div class="rating">
+                    <input type="radio" name="rating-1" class="mask mask-star" checked="checked" />
+                    <input type="radio" name="rating-1" class="mask mask-star" checked="checked" />
+                    <input type="radio" name="rating-1" class="mask mask-star" checked="checked" />
+                    <input type="radio" name="rating-1" class="mask mask-star" checked="checked" />
+                    <input type="radio" name="rating-1" class="mask mask-star" />
+                </div>
+                <p class="text-[#23A6F0] font-semibold">Regina Miles</p>
+                <p>Banker</p>
+            </div>
+        </div>
+    </div>
+</section>
+  <!-- footer -->
   <section class=" mt-96">
 
     <section class="bg-[rgba(255,220,38,50%)]">
       <footer class="footer text-base-content p-10 w-full max-w-6xl mx-auto relative pt-96">
-        <section class="absolute left-1/2  transform -translate-x-1/2 -translate-y-1/2 ">
+        <section class="absolute left-1/2  transform -translate-x-1/2 -translate-y-1/2 max-w-[1150px] w-full ">
           <div class=" mx-auto flex flex-col lg:flex-row justify-center items-center bg-[#FFF9F4] gap-5 p-5 rounded-lg shadow-lg ">
             <div class="flex-1 p-5">
               <img class="w-full max-w-[150px]" src="./c1-assets/cute-pet-mid.png" alt="">
             </div>
             <div class="flex-1">
               <form class="space-y-8">
-                <h6 class="footer-title font-adam text-4xl text-black">Get Pawsome News!</h6>
+                <h6 class=" font-adam text-4xl text-[#111111]">Get Pawsome News!</h6>
                 <fieldset class="form-control w-80">
                   <label class="label">
                     <span class="label-text font-sora text-xl">Exclusive training tips, ticks, product deals and more.</span>
